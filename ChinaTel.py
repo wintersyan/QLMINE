@@ -15,17 +15,17 @@ from Crypto.Util.Padding import pad
 
 # 手机号
 config_list = [
-   {"mobile": "", "food": True}
+   {"mobile": "18166225642", "food": True}
 ]
 # 用户中心
 # 抓包url   https://wapside.189.cn:9001/jt-sign/api/home/homeInfo
 # home_info_body   {"para":"xx"}
-home_info_body = {}
+home_info_body = {"para":"8c11d4f52b72e6ab9f914abb10eee9a82337a422ef57e43b652e2ecd322aa7fc337b5c60bc681e080ecf31f6733ef67ee0eb8df7626482b78fa4690289c02c46e9d195b916001f62d173331830403e0bf9c52457fa342395e06fcb69b89ccdfed972864fb060abe371ec6e56e4e02c28ead6e2089883d14dcf50b0cd088e24ba5513c27ceebc2111b74d1fb36b8d062d6c2a440f9ba369beb02ad80138c953b2f84ea9dc8bf615c5d3b906ee8663b179b7e01e9ac09ca6c343cf14ff96c09e6208e208302404878727f0f6a422eaa591dab5c63fd00d9dad0ecdf7029c6438bea6f65d80bb438bdc43093c48c000ea73529ae7180e39300b115de1761c1cf8b8"}
 
 # 喂宠物
 # https://wapside.189.cn:9001/jt-sign/paradise/food
 # food_body   {"para":"xx"}
-food_body = {}
+food_body = {"para": "10bf094e65f7035c4045f9c3accb8a3fb950c24b055b435e3b842109e4fcc6fead2ec033ef2d2f9e527153a33d4e711b3dde18f717817e04438e7bbc4ec015342503e317446583deae821ffd484aebcae86626326f5bcd24a1a1ceb5da8c1c0c6ff0755187f04f3f5e00256df2bfb0cc3dc1d6bba6120cd507efb7d56d5c049f"}
 
 
 # 分享  
